@@ -1,0 +1,41 @@
+{
+  "name": "riktam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "mongoose-data-seed": "^1.0.7",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.0",
+    "node-geocoder": "^3.27.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.0",
+    "socket.io": "^2.4.1",
+    "webpack": "^5.36.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Saurav Chavan <saurav.21810942@viit.ac.in>",
+  "license": "ISC",
+  "mdSeed": {
+    "seedersFolder": "./seeders",
+    "customSeederTemplate": "./md-seed-template.ejs"
+  }
+}
